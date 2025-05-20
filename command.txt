@@ -1,0 +1,5 @@
+!gcc analyzer.c -o analyzer -lm
+!wget https://raw.githubusercontent.com/nothings/stb/master/stb_image.h
+!./analyzer petri_example.png
+!gcc classifier.c -o classifier
+!./classifier
