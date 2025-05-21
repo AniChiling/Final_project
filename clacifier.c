@@ -43,12 +43,28 @@ int main() {
     // Our database of antibiotics and their breakpoints
     antibioticinfo antibioticTable[MAX_ANTIBIOTICS] = {
         {"Ampicillin", 17, 13},
+    {"Amoxicillin", 14, 12},
+    {"Amoxicillin-Clavulanic Acid", 19, 17},
         {"Ciprofloxacin", 25, 22},
         {"Gentamicin", 15, 12},
         {"Tetracycline", 19, 14},
         {"Cefotaxime", 26, 22},
         {"Meropenem", 25, 22},
         {"Trimethoprim-Sulfamethoxazole", 16, 10}
+    {"Piperacillin-Tazobactam", 20, 20},
+    {"Ceftazidime", 22, 19},
+    {"Ceftriaxone", 25, 22},
+    {"Cefepime", 27, 24},
+    {"Imipenem", 22, 19},
+    {"Ertapenem", 23, 23},
+    {"Levofloxacin", 23, 19},
+    {"Moxifloxacin", 23, 22},
+    {"Amikacin", 18, 17},
+    {"Tobramycin", 18, 16},
+    {"Vancomycin", 12, 11},
+    {"Teicoplanin", 16, 15},
+    {"Linezolid", 21, 20},
+    
     };
 
     // Open the file with zone diameters
